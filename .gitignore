@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.bak
+*.tmp
+*.swp
+*.BAD
+*_COPY*
+results/
+*.gz
+*.zip
+*.tar
+*.tar.gz
