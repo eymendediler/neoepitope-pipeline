@@ -20,3 +20,8 @@ data/
 *.csv
 mdt_small_fixed.tsv
 scripts/
+data/
+*.tsv
+*.csv
+mdt_small_fixed.tsv
+scripts/
