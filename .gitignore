@@ -1,27 +1,23 @@
-.DS_Store
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.log
-*.bak
-*.tmp
-*.swp
-*.BAD
-*_COPY*
-results/
-*.gz
-*.zip
-*.tar
-*.tar.gz
-database/neoepitope.db
+
+# Large data files
+data/
+*.csv
+*.tsv
+
+# Allow final exports
+!exports/final_neoepitope_database.tsv
+!exports/top_mdt_supported_candidates.tsv
+!exports/non_mdt_or_unannotated_candidates.tsv
+
+# SQLite database
 *.db
-data/
-*.tsv
-*.csv
+
+# Temporary / pipeline files
 mdt_small_fixed.tsv
 scripts/
-data/
-*.tsv
-*.csv
-mdt_small_fixed.tsv
-scripts/
+
+# OS files
+.DS_Store
