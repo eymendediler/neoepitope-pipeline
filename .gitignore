@@ -13,3 +13,5 @@ results/
 *.zip
 *.tar
 *.tar.gz
+database/neoepitope.db
+*.db
